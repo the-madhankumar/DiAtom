@@ -1,0 +1,27 @@
+.container .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+
+  }
+  
+  .container .logos .logos-slide {
+    animation:  60s slide infinite linear;
+    display: flex;
+  }
+  
+  .container .logos .logos-slide img {
+    
+    height: 200px;
+    margin: 0 20px;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
